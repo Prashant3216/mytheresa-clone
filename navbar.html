@@ -25,7 +25,7 @@
             </div>
             <div>
                 <a href="">Signup for Newsletter</a>
-                <a href="">My account</a>
+                <a id="chn"href="">My account</a>
                 <a href="">My wishlist <i class="fi fi-rs-heart"></i></a>
                 <a href="">New Zealand | English</a>
             </div>
@@ -62,3 +62,22 @@
 </body>
 
 </html>
+
+<script>
+
+    var prof=(localStorage.getItem("profile"))
+    console.log(prof)
+    if(prof!=null){
+        document.querySelector("#chn").innerHTML=""
+        document.querySelector("#chn").innerHTML=prof
+    
+    }
+    else{
+        document.querySelector("#chn").innerHTML="My Account"
+    
+    }
+    
+    
+    
+    
+    </script>
