@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 82%;
+    height: 2000px;
+    margin: auto;
+    margin-top: 50px
+}
+
+#container>a>img {
+    width: 100%;
+}
+
+#container>h1 {
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.newArrival {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.newArrival>div {
+    width: 23%;
+    margin-top: 15px;
+
+}
+
+.newArrival>div>div {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-bottom: 40px;
+    padding: 0px 15px;
+
+}
+
+.newArrival>div>div>span:first-child {
+    text-decoration: underline overline;
+}
+
+.newArrival>div>a>img {
+    width: 100%
+}
+
+a+p {
+    font-size: 14px;
+    letter-spacing: .8px;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    text-align: center;
+    line-height: 25px;
+}
+
+p+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+#container>center>a {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin: 40px 0px;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: .4px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+#summer {
+    display: flex;
+    width: 100%;
+    height: 580px;
+    margin-bottom: 40px;
+
+}
+
+#summer>div {
+    width: 50%
+}
+
+#summer>div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+#summer>div>div>a {
+    background-color: white;
+    color: black;
+    padding: 8px 20px
+}
+
+#summer>div>div {
+    width: 70%;
+}
+
+#summer img {
+    width: 100%
+}
+
+#summer h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: -.47px;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.3em;
+
+}
+
+#summer h1:hover {
+    color: gray
+}
+
+#summer a:hover {
+    background-color: gray;
+
+}
+
+#summer p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: .4px;
+    line-height: 19px;
+    margin-bottom: 40px;
+}
+
+#justForKids {
+    display: flex;
+    width: 100%;
+    height: 580px;
+    margin-bottom: 40px;
+    border: px solid red;
+
+}
+
+#justForKids>div {
+    width: 50%
+}
+
+#justForKids>div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+#justForKids>div>div>a {
+    background-color: white;
+    color: black;
+    padding: 8px 20px
+}
+
+#justForKids>div>div {
+    width: 70%;
+}
+
+#justForKids img {
+    width: 100%
+}
+
+#justForKids h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: -.47px;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.3em;
+
+}
+
+#justForKids h1:hover {
+    color: gray
+}
+
+#justForKids a:hover {
+    background-color: gray;
+
+}
+
+#justForKids p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: .4px;
+    line-height: 19px;
+    margin-bottom: 40px;
+}
