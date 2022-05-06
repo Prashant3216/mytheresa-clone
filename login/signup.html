@@ -156,13 +156,13 @@ function myFun(){
    var a=document.querySelector("#email1").value;
    var b=document.querySelector("#password1").value
    console.log(a,b)
-    var data=[
-        {
-            email:document.querySelector("#email1").value,
-            password:document.querySelector("#password1").value
-        }
-    ]
-    var prof=[]
+    // var data=[
+    //     {
+    //         email:document.querySelector("#email1").value,
+    //         password:document.querySelector("#password1").value
+    //     }
+    // ]
+    // var prof=[]
  
     var flag=true;
     if(login==null)
@@ -175,7 +175,7 @@ function myFun(){
             if(login[i].email==a && login[i].password==b)
             {    flag=false
                 alert("Login successfull")
-                prof.push(login[i].first)
+                // prof.push(login[i].first)
                 localStorage.setItem("profile",login[i].first)
                 window.location.href="navbar.html"
                 break;
@@ -196,6 +196,7 @@ document.querySelector("#register").addEventListener("click",clickme)
 var info=JSON.parse(localStorage.getItem("information")) || []
 
 function clickme(){
+    alert("registered successfully")
     event.preventDefault()
     // console.log("go on")
 
@@ -213,6 +214,6 @@ function clickme(){
     localStorage.setItem("information",JSON.stringify(info))
     // window.location.reload()
 }
-console.log(info)
+// console.log(info)
 
 </script>
