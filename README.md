@@ -1,1 +1,1 @@
-# mytheresa.com
+# mytheresa
