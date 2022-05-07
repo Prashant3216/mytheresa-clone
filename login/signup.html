@@ -6,89 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   <style>
-       #container{
-           display: flex;
-           width: 90%;
-           margin: auto;
-           margin-top: 20px;
-       }
-     
-       input{
-           margin-bottom: 10px;
-           width: 80%;
-           height: 30px;
-           font-size: 15px;
-           border: 1px solid rgb(177, 172, 172) ;
-       }
-       h3{
-           font-size: 20px;
-           font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-           font-weight: 400;
-       }
-       h3+p{
-           margin-bottom: 40px;
-       }
-       .iamp{
-           width: 83%;
-           color: rgb(138, 137, 137);
-       }
-       #register{
-        width: 14%;
-        background-color: rgb(212, 206, 206);
-        font-size: 14px;
-        text-align: center;
-        cursor: pointer;
-        padding: 5px 10px;
-        border-radius: 5px;
-       }
-       #black{
-        color: white;
-        margin-top: 15px;
-        background-color: black;
-        font-size: 14px;
-        width: 12%;
-        text-align: center;
-        cursor: pointer;
-        padding: 5px 10px;
-        border-radius: 10px;
-
-       }
-       #black:hover{
-           background-color: teal;
-           border-radius: 20px;
-       }
-       #register:hover{
-           width: 13.5%;
-           background-color: rgb(184, 151, 151);
-       }
-       p{
-           color: grey;
-       }
-       #title{
-           width: 80.6%;
-           height: 30px;
-           margin-bottom: 12px;
-           font-size: 15px;
-           color: grey;
-           border: 1px solid rgb(177, 172, 172) ;
-       }
-       #container>div:first-child{
-           width: 50%;
-           /* border: 1px solid green; */
-       }
-       #container>div:last-child{
-           width: 50%;
-           /* border: 1px solid red; */
-       }
-       #body{
-           margin: auto;
-       }
-       .already{
-           border-left: 1px solid rgb(165, 154, 154);
-           padding-left: 7%;
-       }
-   </style>
+ <link rel="stylesheet" href="signup.css">
 </head>
 <body>
     <div id="container">
@@ -143,77 +61,9 @@
 </html>
 
 
-<script>
-
-var login=JSON.parse(localStorage.getItem("information"))
-
-console.log(login)
-
-document.querySelector("#black").addEventListener("click",myFun)
-
-function myFun(){
-  // console.log("HI sabira")
-   var a=document.querySelector("#email1").value;
-   var b=document.querySelector("#password1").value
-   console.log(a,b)
-    // var data=[
-    //     {
-    //         email:document.querySelector("#email1").value,
-    //         password:document.querySelector("#password1").value
-    //     }
-    // ]
-    // var prof=[]
- 
-    var flag=true;
-    if(login==null)
-    {
-        alert("Please Create an account")
-    }
-    else{
-        for(var i=0; i<login.length;i++)
-        {
-            if(login[i].email==a && login[i].password==b)
-            {    flag=false
-                alert("Login successfull")
-                // prof.push(login[i].first)
-                localStorage.setItem("profile",login[i].first)
-                window.location.href="navbar.html"
-                break;
-            }
-           
-        }
-    }
-    if(flag==true){
-        alert("incorrect credential")
-    }
-   
- 
-
-}
-
-
-document.querySelector("#register").addEventListener("click",clickme)
-var info=JSON.parse(localStorage.getItem("information")) || []
-
-function clickme(){
-    alert("registered successfully")
-    event.preventDefault()
-    // console.log("go on")
-
-
-    var data={
-        academic:document.querySelector("#title").value,
-        first:document.querySelector("#name").value,
-        last:document.querySelector("#last").value,
-        email:document.querySelector("#email").value,
-        password:document.querySelector("#password").value,
-        cpassword:document.querySelector("#cpassword").value
-    }
-    // console.log(data)
-    info.push(data)
-    localStorage.setItem("information",JSON.stringify(info))
-    window.location.reload()
-}
-// console.log(info)
-
+<script src="signup.js">
 </script>
+
+
+
+
