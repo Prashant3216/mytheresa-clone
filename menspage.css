@@ -40,14 +40,16 @@
 .newArrival>div>div {
     display: flex;
     justify-content: space-between;
-    color: gray;
-    margin-bottom: 40px;
+    color: #757575;
+    margin-bottom: 25px;
     padding: 0px 15px;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
 
 }
 
 .newArrival>div>div>span:first-child {
     text-decoration: underline overline;
+    font-size: 14px;
 }
 
 .newArrival>div>a>img {

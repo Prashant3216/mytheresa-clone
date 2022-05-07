@@ -94,12 +94,14 @@ span {
     justify-content: space-between;
     padding: 15px 0px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #primaryNav>div:first-child {
     display: flex;
-    width: 730px;
+    width: 700px;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -109,6 +111,7 @@ span {
     font-size: 13px;
     color: #757575;
     letter-spacing: .4px;
+    padding: 0 5px;
 }
 
 #searchBar {
