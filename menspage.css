@@ -5,7 +5,6 @@
 
 #container {
     width: 82%;
-    height: 2000px;
     margin: auto;
     margin-top: 50px
 }
@@ -23,18 +22,25 @@
     margin-top: 50px;
 }
 
+.outerbox {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
 .newArrival {
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 0 20px;
 }
+
 
 .newArrival>div {
     width: 23%;
-    margin-top: 15px;
-
+    margin: 15px, 0;
 }
 
 .newArrival>div>div {
@@ -90,16 +96,10 @@ a {
 }
 
 #summer {
-    display: flex;
-    width: 100%;
-    height: 580px;
-    margin-bottom: 40px;
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-#summer>div {
-    width: 50%
-}
 
 #summer>div:first-child {
     display: flex;
@@ -112,19 +112,21 @@ a {
 #summer>div>div>a {
     background-color: white;
     color: black;
-    padding: 8px 20px
+    padding: 8px 20px;
 }
+
 
 #summer>div>div {
     width: 70%;
 }
 
 #summer img {
-    width: 100%
+    width: 100%;
+    height: 100.01%
 }
 
 #summer h1 {
-    font-size: 50px;
+    font-size: 200%;
     margin-bottom: 20px;
     letter-spacing: -.47px;
     font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
@@ -152,16 +154,8 @@ a {
 }
 
 #justForKids {
-    display: flex;
-    width: 100%;
-    height: 580px;
-    margin-bottom: 40px;
-    border: px solid red;
-
-}
-
-#justForKids>div {
-    width: 50%
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 #justForKids>div:last-child {
@@ -183,7 +177,8 @@ a {
 }
 
 #justForKids img {
-    width: 100%
+    width: 100%;
+    height: 100.05%
 }
 
 #justForKids h1 {
@@ -212,4 +207,27 @@ a {
     letter-spacing: .4px;
     line-height: 19px;
     margin-bottom: 40px;
+}
+
+@media all and (min-width:590px) and (max-width:850px) {
+    #container {
+        width: 100%
+    }
+
+    .newArrival>div {
+        width: 48%;
+        margin: 15px, 0;
+    }
+}
+
+@media all and (min-width:100px) and (max-width:589px) {
+    #container {
+        width: 100%
+    }
+
+    .newArrival>div {
+        width: 95%;
+        margin: 15px, 0;
+    }
+
 }

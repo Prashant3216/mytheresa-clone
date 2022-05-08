@@ -11,19 +11,22 @@
 #topLine {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
 #topLine>div:first-child {
     display: flex;
     justify-content: space-between;
-    width: 200px
+    width: 200px;
+    flex-wrap: wrap;
 }
 
 #topLine>div:last-child {
     display: flex;
     justify-content: space-between;
     width: 480px;
+    flex-wrap: wrap;
 }
 
 #topLine>div:first-child>a {
@@ -127,4 +130,43 @@ span {
 
 hr {
     border: 1px thin
+}
+
+@media all and (min-width:550px) and (max-width:850px) {
+    #navBar {
+        width: 100%;
+
+    }
+
+    #searchBar {
+        width: 200px;
+        padding: 5px 8px;
+
+    }
+}
+
+@media all and (min-width:100px) and (max-width:549px) {
+    #navBar {
+        width: 100%;
+    }
+
+    #cart {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        bottom: -10px;
+    }
+
+    #searchBar {
+        width: 100px;
+        padding: 5px 8px;
+
+    }
+}
+
+@media all and (max-width:320px) {
+    #Logo>a>img {
+        width: 200px;
+        height: 35px;
+    }
 }
