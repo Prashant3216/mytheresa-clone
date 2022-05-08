@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <title>navbar-mytheresa.com</title>
+    <link rel="stylesheet" href="navbar.css">
+    
+</head>
+
+<body>
+    <div id="navBar">
+        <!-- header nav -->
+        <div id="topLine">
+            <div>
+                <a href="">WOMEN</a>
+                <a href="">MEN</a>
+                <a href="">KIDS</a>
+            </div>
+            <div>
+                <a href="">Signup for Newsletter</a>
+                <a id="chn"href="">My account</a>
+                <a href="">My wishlist <i class="fi fi-rs-heart"></i></a>
+                <a href="">New Zealand | English</a>
+            </div>
+        </div>
+        <!-- Logo -->
+        <div id="Logo">
+            <a href="">
+                <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220503T161145"
+                    alt="Mytheresa">
+            </a>
+        </div>
+        <!-- Cart -->
+        <div id="cart">
+            <a href="">SHOPPING BAG <span><i class="fi fi-rs-shopping-cart-check"></i></span></a>
+        </div>
+        <!-- primary nav -->
+        <div id="primaryNav">
+            <div>
+                <a href="">NEW ARRIVALS</a>
+                <a href="">DESIGNERS</a>
+                <a href="">CLOTHING</a>
+                <a href="">SHOES</a>
+                <a href="">BAGS</a>
+                <a href="">ACCESSORIES</a>
+                <a href="">JEWELRY</a>
+                <a href="">VACATION</a>
+                <a href="">SALE</a>
+            </div>
+            <div><input type="search" name="" id="searchBar" placeholder="search for..."></div>
+        </div>
+    </div>
+    <!-- Horizontal line -->
+    <hr>
+</body>
+
+</html>
+
+<script>
+
+    var prof=(localStorage.getItem("profile"))
+    console.log(prof)
+    if(prof!=null){
+        document.querySelector("#chn").innerHTML=""
+        document.querySelector("#chn").innerHTML=prof
+    
+    }
+    else{
+        document.querySelector("#chn").innerHTML="My Account"
+    
+    }
+    
+    
+    
+    
+    </script>
