@@ -12,7 +12,13 @@ p {
     text-align: left;
 }
 
+.unorder {
+    text-align: center;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+}
+
 .head {
+    /* display: inline-block; */
     font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
     text-align: center;
 }
