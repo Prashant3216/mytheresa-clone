@@ -1,0 +1,27 @@
+#upperbox {
+    width: 80%;
+    margin: auto;
+}
+
+#sidetoside {
+    display: flex;
+}
+
+ul,
+p {
+    text-align: left;
+}
+
+.head {
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+}
+
+u:hover {
+    cursor: pointer;
+    color: rgb(34, 34, 252);
+}
