@@ -50,7 +50,7 @@ let men =[
     img :"https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/91/P00667050.jpg"
     },
 
-    {tirle:"JOHANNA ORTIZ",
+    {title:"JOHANNA ORTIZ",
     heading: "Vin Du Marco silk maxi dress",
     price: '1,275',
     img:"https://img.mytheresa.com/1088/1088/66/jpeg/catalog/product/d9/P00638832.jpg"
