@@ -1,0 +1,146 @@
+
+
+#container1{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+input{
+    margin-bottom: 10px;
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid rgb(177, 172, 172) ;
+}
+h3{
+    font-size: 20px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+h3+p{
+    margin-bottom: 40px;
+}
+.iamp{
+    width: 83%;
+    color: rgb(138, 137, 137);
+}
+#register{
+ width: 14%;
+ background-color: rgb(212, 206, 206);
+ font-size: 14px;
+ text-align: center;
+ cursor: pointer;
+ padding: 5px 10px;
+ border-radius: 5px;
+}
+#black{
+ color: white;
+ margin-top: 15px;
+ background-color: black;
+ font-size: 14px;
+ width: 12%;
+ text-align: center;
+ cursor: pointer;
+ padding: 5px 10px;
+ border-radius: 10px;
+
+}
+#black:hover{
+    background-color: teal;
+    border-radius: 20px;
+}
+#register:hover{
+    width: 13.5%;
+    background-color: rgb(184, 151, 151);
+}
+p{
+    color: grey;
+}
+#title{
+    width: 80.6%;
+    height: 30px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: grey;
+    border: 1px solid rgb(177, 172, 172) ;
+}
+#container1>div:first-child{
+    width: 50%;
+    /* border: 1px solid green; */
+}
+#container1>div:last-child{
+    width: 50%;
+    /* border: 1px solid red; */
+}
+#body{
+    margin: auto;
+}
+.already{
+    border-left: 1px solid rgb(165, 154, 154);
+    padding-left: 7%;
+width: 20%;
+}
+#country{
+    width: 81%;
+    height: 35px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(177, 172, 172) ;
+}
+button{
+    padding: 5px 15px 5px 10px;
+}
+#back{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+#express{
+   display: flex;
+   justify-content: space-between;
+}
+#express+p{
+   margin-top: -15px;
+   color: black;
+}
+.fa-thin{
+    margin-right: 10px;
+}
+#call{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+}
+#call>div{
+    border: 1px solid rgb(182, 180, 180);
+    width: 40%;
+    margin: auto;
+}
+#call>div>img{
+    width: 100%;
+}
+#butn{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+#butn>div:first-child{
+    font-size: 15px;
+    background-color: rgb(175, 166, 166);
+    padding: 10px 15px 10px 15px;
+
+}
+#butn>div+div{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    
+}

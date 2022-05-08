@@ -1,0 +1,87 @@
+
+        p{
+            margin-left: 2.6%;
+          }
+          #container{
+          /* background-color: green; */
+          width: 95%;
+          margin: auto;
+          height: 150px;
+      }
+      hr{
+          width: 95%;
+      }
+  
+      #shop{
+          display: flex;
+          justify-content: space-between;
+      }
+      #usecode{
+          margin-left: 3%;
+          width: 35%;
+          height: 30px;
+          padding-left: 10px;
+      }
+      #shop>div:first-child{
+          width: 100%;
+      }
+      #usecode1{
+          width: 15%;
+          height: 36px;
+          padding-top: 1px;
+          margin-left: -5px;
+          margin-top: 18px;
+  
+      }
+      #cshopping{
+          margin-left: 3%;
+          margin-top: 7%;
+          padding: 10px 25px 10px 25px;
+      }
+      #sub{
+          font-size: 14px;
+          color: grey;
+          margin-left: 39%;
+      }
+      #subtotal, #grandtotal{
+          margin-left: 5px;
+      }
+      #grand{
+          font-size: 14px;
+          font-weight: 800;
+          margin-left: 32%;
+      }
+      #description{
+          margin-left: -40%;
+          padding: 5px 0 20px;
+          color: #757575;
+          font-size: 14px
+      }
+      #checkout{
+          color: white;
+          background-color: black;
+          cursor: pointer;
+          padding: 10px 25px 10px 25px;
+      }
+      #line{
+          text-align: center;
+          color: grey;
+          margin-top: 30px;
+      }
+      #call{
+          width: 80%;
+          display: flex;
+          margin: auto;
+      }
+      #call>div{
+          border: 1px solid rgb(182, 180, 180);
+          width: 47%;
+          margin: auto;
+      }
+      img{
+          width: 100%;
+      }
+      a{
+          color: white;
+          text-decoration: none;
+      }
