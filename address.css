@@ -14,10 +14,12 @@ input{
     font-size: 15px;
     border: 1px solid rgb(177, 172, 172) ;
 }
-h3{
+#head1,#head11{
     font-size: 20px;
     font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
     font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
 }
 h3+p{
     margin-bottom: 40px;
@@ -57,6 +59,7 @@ h3+p{
 }
 p{
     color: grey;
+    margin-bottom: 2%;
 }
 #title{
     width: 80.6%;
@@ -98,11 +101,21 @@ button{
 #express{
    display: flex;
    justify-content: space-between;
+   width: 90%;
 }
 #express+p{
    margin-top: -15px;
    color: black;
+   margin-left: 6%;
 }
+#express>h4{
+   font-size: larger;
+    color: black;
+    margin-left: 6%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 6%;
+  margin-top: 2%;
+ }
 .fa-thin{
     margin-right: 10px;
 }
@@ -144,3 +157,22 @@ a{
     text-decoration: none;
     
 }
+#set{
+    margin-top: 2%;
+ }
+ #set>h3{
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+ hr{
+     margin-top: 2%;
+     margin-left: 4%;
+ }
+ #midfoot{
+     padding-top: 50px;
+ }
+ h4{
+     margin-bottom: 3%;
+ }
+ 
+
