@@ -11,7 +11,7 @@
         href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
     <title>navbar-mytheresa.com</title>
     <link rel="stylesheet" href="navbar.css">
-    
+
 </head>
 
 <body>
@@ -25,7 +25,7 @@
             </div>
             <div>
                 <a href="">Signup for Newsletter</a>
-                <a id="chn"href="">My account</a>
+                <a id="chn" href="">My account</a>
                 <a href="">My wishlist <i class="fi fi-rs-heart"></i></a>
                 <a href="">New Zealand | English</a>
             </div>
@@ -58,26 +58,9 @@
         </div>
     </div>
     <!-- Horizontal line -->
-    <hr>
+    <hr id="navline">
 </body>
 
 </html>
 
-<script>
-
-    var prof=(localStorage.getItem("profile"))
-    console.log(prof)
-    if(prof!=null){
-        document.querySelector("#chn").innerHTML=""
-        document.querySelector("#chn").innerHTML=prof
-    
-    }
-    else{
-        document.querySelector("#chn").innerHTML="My Account"
-    
-    }
-    
-    
-    
-    
-    </script>
+<script src="navbar.js"></script>

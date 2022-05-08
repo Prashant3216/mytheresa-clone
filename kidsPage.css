@@ -6,6 +6,7 @@
     column-gap: 20px;
     width: 80%;
     margin: auto;
+    margin-top: 30px;
 }
 
 #container>div:nth-child(3) {
@@ -13,7 +14,17 @@
     width: 203%;
 }
 
-img {
+#container img {
+    height: 100%;
+    width: 100%;
+}
+
+#box img {
+    height: 100%;
+    width: 100%;
+}
+
+#header img {
     height: 100%;
     width: 100%;
 }
@@ -129,9 +140,6 @@ div>h3 {
     text-align: center;
 }
 
-div>p {
-    margin-left: 10%;
-}
 
 div>p+h3 {
     margin-right: 62%;

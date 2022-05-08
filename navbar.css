@@ -1,11 +1,15 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 #navBar {
     width: 82%;
     margin: auto;
+}
+
+#navBar+hr {
+    width: 100%
 }
 
 #topLine {

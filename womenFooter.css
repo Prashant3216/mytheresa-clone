@@ -1,7 +1,9 @@
 #upperbox {
     width: 80%;
     margin: auto;
+
 }
+
 
 #sidetoside {
     display: flex;
@@ -10,6 +12,7 @@
 ul,
 p {
     text-align: left;
+
 }
 
 .unorder {
@@ -21,6 +24,7 @@ p {
     /* display: inline-block; */
     font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
     text-align: center;
+    color: black;
 }
 
 hr {
@@ -30,4 +34,9 @@ hr {
 u:hover {
     cursor: pointer;
     color: rgb(34, 34, 252);
+}
+
+#upperbox>p {
+    color: black;
+    font-weight: lighter;
 }
