@@ -23,7 +23,7 @@ function myFun(){
                 alert("Login successfull")
                 // prof.push(login[i].first)
                 localStorage.setItem("profile",login[i].first)
-                window.location.href="menspage.html"
+                window.location.href="index.html"
                 break;
             }
            
