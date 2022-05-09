@@ -1,121 +1,183 @@
+p {
+    margin-left: 2.6%;
+}
 
-        p{
-            margin-left: 2.6%;
-          }
-          #container{
-          /* background-color: green; */
-          width: 95%;
-          margin: auto;
-          height: 150px;
-      }
-      hr{
-          width: 95%;
-      }
-  
-      #shop{
-          display: flex;
-          justify-content: space-between;
-      }
-      #usecode{
-          margin-left: 3%;
-          width: 35%;
-          height: 30px;
-          padding-left: 10px;
-      }
-      #shop>div:first-child{
-          width: 100%;
-      }
-      #usecode1{
-          width: 15%;
-          height: 36px;
-          padding-top: 1px;
-          margin-left: -5px;
-          margin-top: 18px;
-  
-      }
-      #cshopping{
-          margin-left: 3%;
-          margin-top: 7%;
-          padding: 10px 25px 10px 25px;
-      }
-      #sub{
-          font-size: 14px;
-          color: grey;
-          margin-left: 20%;
-      }
-     #grandtotal{
-          margin-left: 20px;
-      }
-      #grand{
-          font-size: 14px;
-          font-weight: 800;
-      }
-      #description{
-          margin-left: -40%;
-          padding: 5px 0 20px;
-          color: #757575;
-          font-size: 14px
-      }
-      #checkout{
-          color: white;
-          background-color: black;
-          cursor: pointer;
-          padding: 10px 25px 10px 25px;
-      }
-      #line{
-          text-align: center;
-          color: grey;
-          margin-top: 30px;
-      }
-      #call{
-          width: 80%;
-          display: flex;
-          margin: auto;
-      }
-      #call>div{
-          border: 1px solid rgb(182, 180, 180);
-          width: 47%;
-          margin: auto;
-      }
-      img{
-          width: 100%;
-      }
-      a{
-          color: white;
-          text-decoration: none;
-      }
-      #set{
-        margin-top: 2%;
-     }
-     #set>h3{
-        margin-bottom: 2%;
-     }
-     hr{
-         margin-top: 2%;
-         margin-left: 4%;
-     }
-     #midfoot{
-         padding-top: 50px;
-     }
-     p{
-         margin-top: 2%;
-       margin-bottom: 2%;
-       margin-left: 6%
-     }
-     div>p{
-     margin-right: 40px;
-     
-     }
-     #im{
-         height: 80px;
-     }
-     #im>img:first-child{
-        width: 50%;
-     }
-     #im>img:last-child{
-        width: 25%;
-     }
-     div>h3{
-         margin-top: 2%;
-     }
-     
+#container {
+    /* background-color: green; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-start;
+}
+
+#disImg {
+    width: 30%;
+    margin-right: 30px
+}
+
+#disImg>img {
+    width: 100%;
+    display: block;
+}
+
+#text {
+    width: 30%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#text>p:nth-child(1) {
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+#text>h4 {
+    font-size: 20px;
+    padding-left: 20px
+}
+
+#text>p:nth-child(3) {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+hr {
+    width: 95%;
+}
+
+#shop {
+    display: flex;
+    justify-content: space-between;
+}
+
+#usecode {
+    margin-left: 3%;
+    width: 35%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+#shop>div:first-child {
+    width: 100%;
+}
+
+#usecode1 {
+    width: 15%;
+    height: 36px;
+    padding-top: 1px;
+    margin-left: -5px;
+    margin-top: 18px;
+
+}
+
+#cshopping {
+    margin-left: 3%;
+    margin-top: 7%;
+    padding: 10px 25px 10px 25px;
+}
+
+#sub {
+    font-size: 14px;
+    color: grey;
+    margin-left: 20%;
+}
+
+#grandtotal {
+    margin-left: 20px;
+}
+
+#grand {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#description {
+    margin-left: -40%;
+    padding: 5px 0 20px;
+    color: #757575;
+    font-size: 14px
+}
+
+#checkout {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+}
+
+#line {
+    text-align: center;
+    color: grey;
+    margin-top: 30px;
+}
+
+#call {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+#call>div {
+    border: 1px solid rgb(182, 180, 180);
+    width: 47%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#set {
+    margin-top: 2%;
+}
+
+#set>h3 {
+    margin-bottom: 2%;
+}
+
+hr {
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+#midfoot {
+    padding-top: 50px;
+}
+
+p {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 6%
+}
+
+div>p {
+    margin-right: 40px;
+
+}
+
+#im {
+    height: 80px;
+}
+
+#im>img:first-child {
+    width: 50%;
+}
+
+#im>img:last-child {
+    width: 25%;
+}
+
+div>h3 {
+    margin-top: 2%;
+}
