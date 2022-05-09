@@ -1,0 +1,134 @@
+.fa-regular{
+    font-size: 30px;
+}
+
+#heading{
+    width: 90%;
+    margin: auto;
+}
+hr{
+    width: 90%;
+}
+.icon{
+    margin-top: 17px;
+    margin-right: 10px;
+}
+#card{
+       display: flex;
+}
+#card > p+p{
+    margin-left: 10px;
+}
+#ship{
+    margin-top: -10px;
+    margin-left: 25px;
+    color: rgb(161, 159, 159);
+}
+#container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+  
+}
+#container>div{
+    width: 50%;
+}
+#carddetail{
+    display: flex;
+}
+input{
+    height: 30px;
+    margin-top: -20px;
+}
+#name , #number{
+    width: 95%;
+}
+#paypal{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+#shippayment{
+    margin-left: 90px;
+    color: rgb(165, 162, 162);
+    margin-top: -2px;
+}
+#butn{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+#butn>div:first-child{
+    font-size: 15px;
+    background-color: rgb(175, 166, 166);
+    padding: 10px 15px 10px 15px;
+
+}
+#butn>div+div{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+}
+#note{
+    width: 33%;
+    margin-left: 65px;
+    color: rgb(121, 117, 117);
+}
+#call{
+width: 80%;
+display: flex;
+margin: auto;
+margin-top: 60px;
+}
+#call>div{
+    border: 1px solid rgb(182, 180, 180);
+    width: 40%;
+    margin: auto;
+}
+#call>div>img{
+    width: 100%;
+}
+#line{
+    text-align: center;
+    color: grey;
+}
+a{
+   text-decoration: none;
+}
+#expire, #cvv{
+   width: 75px;
+}
+#set{
+    margin-top: 2%;
+ }
+ #set>h3{
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+ hr{
+     margin-top: 2%;
+     margin-left: 4%;
+ }
+ #midfoot{
+     padding-top: 50px;
+ }
+ h4{
+     margin-bottom: 3%;
+ }
+ p{
+    margin-top: 2%;
+ }
+ div>p{
+   margin-bottom: 2%;
+ }
+ #carddetail>div>p{
+     padding-top: 20px;
+padding-bottom: 20px;
+color: black;
+ }
+ #carddetail+p,#heading>p,#card>p,#card+p{
+   color: black;
+ }

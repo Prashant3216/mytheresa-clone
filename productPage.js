@@ -1,5 +1,4 @@
 
-
 var arr=JSON.parse(localStorage.getItem("mensData"));
 var lableArray=JSON.parse(localStorage.getItem("menslable"));
 var sizeArray=JSON.parse(localStorage.getItem("mensSize"));
@@ -20,7 +19,7 @@ arr.forEach(function (elm){
     var i=document.createElement("i");
     i.setAttribute("class", "fi fi-rs-star");
     var anchorPic=document.createElement("a");
-    anchorPic.setAttribute("href", "");
+    anchorPic.setAttribute("href", "cart.html");
     var productPic=document.createElement("img");
     productPic.setAttribute("src", elm.img);
     var brandName=document.createElement("p");
@@ -73,4 +72,3 @@ patternArray.forEach(function(el){
     var br=document.createElement("br");
     document.querySelector("#pattern").append(inputCheck, lable, br)
 })
-
