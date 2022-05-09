@@ -1,1 +1,64 @@
 # mytheresa.com
+
+# Mytheresa.com
+
+This website is dedicated to shopping enthusiast, by keeping all their need in mind.
+It an e-commerce website designed in its simplest form to navigate through some of the world's best brands. it gives a smooth user experience and user flow.
+#
+
+ 
+
+
+
+## Authors
+
+- [Prashant Verma](https://github.com/Prashant3216)
+- [Sabira Farooq](https://github.com/Sab01123)
+- [Waris Khan](https://github.com/warismuneerkhan)
+#
+
+
+
+## Demo
+
+Please checkout this website by clicking on the link-
+https://cheery-sorbet-56415b.netlify.app
+#
+The above link will take you to the landing page of the website, which is mens page in this case.
+#
+From the site is self explanatory and easy to navigate.
+
+![Logo](https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220508T165320)
+
+
+## 🛠 Skills
+Javascript, HTML, CSS...
+
+
+## Appendix
+
+Note: This is a clone of the original website Mythresa.com and it is built for the 
+academic purpose.
+
+
+## Contributing
+
+Contributions are always welcome!
+
+Please adhere to this project's `code of conduct`.
+
+
+## Links
+#
+Website Link: https://cheery-sorbet-56415b.netlify.app
+
+
+## Support
+
+For support, email pv3216@gmail.com.
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at pv3216@gmail.com
+
