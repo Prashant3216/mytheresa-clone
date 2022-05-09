@@ -1,0 +1,300 @@
+#cont {
+    height: 550px;
+    width: 80%;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#cont>img {
+    height: 100%;
+    width: 100%;
+}
+
+#box {
+    height: 260px;
+    width: 80%;
+    background-color: rgb(214, 219, 219);
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+#box>p:nth-child(1) {
+    padding: 4%;
+
+
+}
+
+#box>h2 {
+    margin-top: 30px;
+}
+
+
+
+#box>button {
+    height: 40px;
+    width: 12%;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    border: transparent;
+}
+
+#head {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 550px 550px;
+    margin: auto;
+    margin-top: 200px;
+    width: 80%;
+    column-gap: 20px;
+
+
+}
+
+#head>div:nth-child(1) {
+
+    grid-area: 1/1/3/2;
+}
+
+
+
+#head>div:nth-child(3) {
+    margin-top: 28%;
+
+}
+
+#head>div>img {
+    height: 100%;
+    width: 100%;
+}
+
+#head>div:nth-child(2)>img {
+
+    height: 70%;
+}
+
+#head>div:nth-child(3)>img {
+    height: 100%;
+
+
+}
+
+#head>div>button {
+    height: 35px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    margin-left: 38%;
+    margin-top: 6%;
+    border: transparent;
+}
+
+#head>div>hr {
+    margin-top: 5%;
+}
+
+#head>div>p+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 10;
+    margin-top: 20px;
+
+
+}
+
+#head>div>p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -50px;
+}
+
+hr {
+    /* margin-top: 20%; */
+    width: 80%;
+}
+
+#shop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 550px 550px;
+    margin: auto;
+    margin-top: 20%;
+    width: 80%;
+    column-gap: 20px;
+
+
+}
+
+/* #shop>div:nth-child(1) {} */
+
+#shop>div:nth-child(2) {
+    margin-top: 40%;
+
+}
+
+#shop>div:nth-child(3) {
+
+    grid-area: 1/2/3/4;
+}
+
+#shop>div:nth-child(1)>img {
+    height: 70%;
+    width: 100%;
+}
+
+#shop>div:nth-child(2)>img {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+#shop>div:nth-child(3)>img {
+    height: 100%;
+    width: 100%;
+}
+
+#shop>div>button {
+    height: 35px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    margin-left: 38%;
+    margin-top: 6%;
+    border: transparent;
+}
+
+#shop>div>hr {
+    margin-top: 5%;
+}
+
+#shop>div>p+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 10;
+    margin-top: 5%;
+
+
+}
+
+#shop>div>p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -4%;
+}
+
+#product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px;
+    width: 80%;
+    column-gap: 20px;
+    margin: auto;
+}
+
+#product>div:nth-child(1) {
+    background-color: aqua;
+}
+
+#product>div:nth-child(2) {
+    background-color: black;
+}
+
+#product>div:nth-child(3) {
+    background-color: blue;
+}
+
+#product>div:nth-child(4) {
+    background-color: blueviolet;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 10;
+}
+
+#product>div>img {
+    height: 100%;
+    width: 100%;
+}
+
+#product>button {
+    background-color: black;
+    color: white;
+    margin: 40%;
+    margin-left: 190%;
+    width: 50%;
+    height: 40px;
+    border: transparent;
+
+}
+
+.h {
+    margin-top: -25%;
+}
+
+.first>p:nth-child(1) {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.first>p:nth-child(2) {
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.fle {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+
+}
+
+.fle>div>p:nth-child(1) {
+    font-size: 18px;
+
+    width: 150%;
+    text-align: left;
+}
+
+.fle>div>p:nth-child(2) {
+    font-size: 18px;
+    width: 150%;
+    text-align: left;
+}
+
+.last>p {
+    font-size: 17px;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.first {
+    margin-top: 30px;
+}
+
+.h {
+    margin-top: -60px;
+}
+
+#marginde {
+    margin-top: 20%;
+}
+
+#marg {
+    margin-top: 30px;
+}

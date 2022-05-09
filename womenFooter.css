@@ -1,0 +1,42 @@
+#upperbox {
+    width: 80%;
+    margin: auto;
+
+}
+
+
+#sidetoside {
+    display: flex;
+}
+
+ul,
+p {
+    text-align: left;
+
+}
+
+.unorder {
+    text-align: center;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+}
+
+.head {
+    /* display: inline-block; */
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+hr {
+    width: 80%;
+}
+
+u:hover {
+    cursor: pointer;
+    color: rgb(34, 34, 252);
+}
+
+#upperbox>p {
+    color: black;
+    font-weight: lighter;
+}

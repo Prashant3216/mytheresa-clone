@@ -7,5 +7,5 @@ function mycheckout(){
 document.querySelector("#cshopping").addEventListener("click",continueShopping)
 
 function continueShopping(){
-    window.location.href="mensPage.html"
+    window.location.href="productPage.html"
 }

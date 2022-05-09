@@ -19,7 +19,7 @@ function checkdetail(){
     else
     {
         alert("Order is Successfully placed")
-        window.location.href="mensPage.html"
+        window.location.href="index.html"
     }
 
 }
