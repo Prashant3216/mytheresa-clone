@@ -2,7 +2,7 @@
 
 # Mytheresa.com
 
-This website is dedicated to shopping enthusiast, by keeping all their need in mind.
+This website is dedicated to shopping enthusiasts, by keeping all their needs in mind.
 It an e-commerce website designed in its simplest form to navigate through some of the world's best brands. it gives a smooth user experience and user flow.
 #
 
