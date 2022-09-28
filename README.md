@@ -29,7 +29,7 @@ The above link will take you to the landing page of the website, which is mens p
 From the site is self explanatory and easy to navigate.
 #
 
-![Logo]https://i.pinimg.com/736x/69/b8/6f/69b86f1f0a9ebd9b93f71410cb4fbdf4.jpg)
+![Logo](https://i.pinimg.com/736x/69/b8/6f/69b86f1f0a9ebd9b93f71410cb4fbdf4.jpg)
 
 
 ## 🛠 Skills
